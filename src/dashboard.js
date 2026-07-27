@@ -19,7 +19,6 @@ function Dashboard() {
         "Ending":RunData.Ending[roll2d6()]
       }
       setRun(runObject);
-      fathom.trackEvent('A random Shadowrun was Generated'); // eslint-disable-line
     }
 
     function roll2d6(){
